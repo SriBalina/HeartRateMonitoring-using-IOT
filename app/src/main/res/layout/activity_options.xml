@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:scrollbars="none"
+    tools:context=".OptionsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="127dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:textSize="25dp"
+            android:clickable="true"
+            android:text="Logout"
+            android:textColor="@color/grey">
+
+        </TextView>
+        <ImageView
+            android:id="@+id/widget_title_icon"
+            android:layout_width="145dp"
+            android:layout_height="152dp"
+            android:layout_gravity="top|right"
+            android:src="@drawable/logo"
+            tools:layout_editor_absoluteX="663dp"
+            tools:layout_editor_absoluteY="37dp" />
+
+        <FrameLayout
+            android:layout_width="519dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/btn1"
+                android:background="#000000"
+                android:backgroundTint="@null"
+                app:backgroundTint="@null"
+                android:layout_width="625dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="100dp"
+                android:textColor="@color/white"
+                android:text="TAKE READINGS                             " />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="519dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/btn2"
+                android:background="#000000"
+                android:backgroundTint="@null"
+                app:backgroundTint="@null"
+                android:layout_width="625dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/white"
+                android:text="PREVIOUS RECORDS                       " />
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>
